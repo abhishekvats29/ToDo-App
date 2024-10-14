@@ -1,0 +1,46 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+h1 {
+  color: navy ;
+  
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: skyblue;
+  
+}
+
+button {
+  padding: 10px;
+  color: black;
+  background-color: rgb(47, 255, 99);
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+li {
+  padding: 10px;
+  background-color: brown;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+li span {
+  cursor: pointer;
+}
